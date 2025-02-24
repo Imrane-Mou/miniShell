@@ -1,0 +1,41 @@
+Command to launch the minishell:
+make clean && make && ./minishell
+
+
+
+
+List of tested commands:
+
+code .
+ls
+cd src
+ls -u 
+cd ..
+mkdir test
+rmdir test
+nano new
+cat test.txt
+sleep 5 
+sleep 5 &
+ls -u > file.output
+ls -u >> file.output
+faeiu 2> file.error
+fhzeuia 2>> file.error
+echo hello ; echo world 
+ls -t | grep .txt | grep t
+export VAR=PSI
+echo $VAR
+unset var
+echo $VAR
+echo "Hello" && echo "World"
+psi && echo upjv
+echo "hello" | grep "hello" && echo "Trouvé"
+psi || echo upjv
+ls | grep txt && echo "Found!" || echo "Not Found"
+cat < file.output
+echo hello >&2
+echo hi &> output.txt
+clear
+exit
+
+
